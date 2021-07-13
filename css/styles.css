@@ -1,0 +1,289 @@
+/*Created: Joshua Craig 09/24/2018*/
+
+* {
+	margin: auto;
+	padding: 0;
+}
+
+body{
+	background-color: #f3f3f3;
+}
+
+/*Style for my nav bar and drop down menu*/
+nav p {
+	font-family: arial;
+	font-size: 1.4em;
+	line-height: 2.2em;
+	padding: .2em .4em .2em 1.6em;
+	float: left;
+	font-weight: bold;
+}
+
+nav p a {
+	text-decoration: none;
+	color: #000000;
+}
+
+nav {
+	height: 3.8em;
+	background-color: #9fc5e8;
+	font-weight: bold;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	font-family: arial;
+	color: #000000;
+	font-size: .96em;
+	padding: 1.35em .9em;
+	text-decoration: none;
+	position: relative;
+}
+
+nav ul li a:hover {
+	background-color: #d6e6f5;
+	
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #9fc5e8;
+	padding: 10px;
+	border-radius: 0em 0em 1em 1em
+}
+
+nav ul li:hover ul {
+	display: block;
+	border-radius: 0em 0em .5em .5em;
+}
+
+nav ul li ul li {
+	width: 13.5em;
+	border-radius: 4px;
+}
+
+nav ul li ul li a:hover {
+	border-radius: .5em .5em .5em .5em;
+}
+
+nav ul li ul li a {
+	padding: 10px 10px;
+}
+
+/*Style for the main content on the pages*/
+
+#container {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pdf {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pdf object {
+	width: 100%;
+	height: 71em;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+#container main img {
+	float: left;
+	height: 20em;
+	padding: 1em;
+}
+
+#certs img {
+	float: left;
+	height: 30em;
+	padding: 1.5em;
+}
+
+#container table, th, td {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 1em;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+}
+
+#awards {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	max-height: 100%;
+	border-radius: 1em;
+	min-width: 80%;
+	list-style-position: inside;
+}
+
+#awards ul {
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+
+#awards h1 {
+	padding: 1em;
+}
+
+#container table img {
+	float: left;
+	width: 8em;
+	padding: 1em;
+}
+
+#container main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	max-height: 100%;
+	border-radius: 1em;
+	min-width: 80%;
+	float: left;
+}
+
+#container main h1 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#container main p {
+	margin: 1em 1em 1em 1em;
+	font-size: 1.5em;
+	font-size: 1em;
+	text-align: center;
+}
+
+#skills {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#skills main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	max-height: 100%;
+	border-radius: 1em;
+	min-width: 80%;
+}
+
+#skills main h1 {
+	font-size: 1.5em;
+	padding: 1em;
+	text-align: center;
+}
+
+#skills main h4 {
+	font-size: 1em;
+}
+
+#skills main p {
+	margin: 1em 1em 1em 1em;
+	font-size: 1.5em;
+	font-size: 1em;
+}
+
+footer{
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	font-size: .8em;
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+footer img {
+	width: 1em;
+}
+
+footer a {
+	text-decoration: none;
+	color: blue;
+}
+
+#contact {
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	max-height: 100%;
+	border-radius: 1em;
+	min-width: 80%;
+}
+
+#contact main form {
+	padding: .5em;
+}
+
+#contact main h1 {
+	padding: 1em;
+	text-align: center;
+}
+
+select {
+	margin-bottom: 1em;
+	height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+}
+
+input {
+	margin-bottom: 1em;
+	width: 100%;
+	height: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	background-color: #FFFFFF;
+}
+
+input[type=submit]:hover {
+	background-color: #F3F3F3;
+}
+
+textarea {
+	width: 100%;
+	height: 15em;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+}
